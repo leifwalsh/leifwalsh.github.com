@@ -1,0 +1,47 @@
+/*
+  Welcome to Compass.
+  In this file you should write your main styles. (or centralize your imports)
+  Import this file using the following HTML or equivalent:
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+
+@import compass/reset.sass
+
+/*
+  The *:focus rule is reset and suppresses link outlining.
+  You _must_ remember to redefine your own outline, as it’s an important accessibility aid. E.g.
+  *:focus
+    outline: #ccc dotted medium
+
+!color0 = #3f3f3f
+!color1 = #705050
+!color2 = #60b48a
+!color3 = #dfaf8f
+!color4 = #506070
+!color5 = #dc8cc3
+!color6 = #8cd0d3
+!color7 = #dcdccc
+!color8 = #709080
+!color9 = #dca3a3
+!color10 = #c3bf9f
+!color11 = #f0dfaf
+!color12 = #94bff3
+!color13 = #ec93d3
+!color14 = #93e0e3
+!color15 = #ffffff
+
+body
+  :background = !color0
+  :color = !color7
+  pre, code
+    :font-family "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Lucida Sans Typewriter", mono
+  a
+    :text-decoration none
+  .link
+    :color = !color14
+    :font-weight bold
+  .dir
+    :color = !color12
+    :font-weight bold
+  .exec
+    :color = !color10
+    :font-weight bold

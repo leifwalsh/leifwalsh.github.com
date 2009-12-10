@@ -293,7 +293,7 @@
                                      format_string: {
                                          type: Term.types.link,
                                          perm: Term.perms.read,
-                                         contents: ['http://github.com/adlaiff6/format_sting/']
+                                         contents: ['http://github.com/adlaiff6/format_string/']
                                      },
                                      jsh: {
                                          type: Term.types.link,
